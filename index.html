@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Sistema experto</title>
+</head>
+<body>
+    <h1 class="text-center">Alto a la violencia</h1>
+    <main class="container">
+        <section class="row">
+            <article class="col-12 bg-primary-subtle">
+                <h2 class="text-center">Violentometro</h2>
+                <h3 class="text-center">#CeroToleranciaALaViolencia</h3>
+            </article>
+        </section>
+        <section class="row">
+            <article class="col-12 bg-primary-subtle">
+                <h5>Debe de contestar a las siguientes opciones si a sufrido alguna de ella o no</h5>
+            </article>
+        </section>
+        <section class="row bg-primary-subtle">
+            <form action="calcularviolencia.php" method="post">
+                <label>Seleccione una opcion</label>
+                <br><br>
+                <input type="radio" name="rbOpcion" value="BI" id="Id1" checked>
+                <label for="Id1">Bromas hirientes</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CH" id="Id2">
+                <label for="Id2">Chantajear</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="ME" id="Id3">
+                <label for="Id3">Mentir, engañar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="IL" id="Id4">
+                <label for="Id4">Ignorar, ley del hielo</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CE" id="Id5">
+                <label for="Id5">Celar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CA" id="Id6">
+                <label for="Id6">Acechar/Stalkear redes sociales</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CU" id="Id7">
+                <label for="Id7">Culpabilizar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="DE" id="Id8">
+                <label for="Id8">Descalificar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="RO" id="Id9">
+                <label for="Id9">Ridiculizar, ofender</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="HP" id="Id10">
+                <label for="Id10">Humillar en publico</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="IA" id="Id11">
+                <label for="Id11">Intimidar, amenazar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CP" id="Id12">
+                <label for="Id12">Controlar, prohibir</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="DA" id="Id13">
+                <label for="Id13">Destruir articulos personales</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="MA" id="Id14">
+                <label for="Id14">Manosear</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CR" id="Id15">
+                <label for="Id15">Caricias agresivas</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="GO" id="Id16">
+                <label for="Id16">Golpear "jugando"</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="PA" id="Id17">
+                <label for="Id17">Pellizcar, arañar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="EJ" id="Id18">
+                <label for="Id18">Empujar, jalonear</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="CT" id="Id19">
+                <label for="Id19">Cachetear</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="PT" id="Id20">
+                <label for="Id20">Patear</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="EA" id="Id21">
+                <label for="Id21">Encerrar, aislar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="XT" id="Id22">
+                <label for="Id22">Sextorsión</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="OA" id="Id23">
+                <label for="Id23">Amenazar con objetos o armas</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="DI" id="Id24">
+                <label for="Id24">Difundir contenido intimo sin consentimiento por medios digitales</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="AM" id="Id25">
+                <label for="Id25">Amenazar de muerte</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="FO" id="Id26">
+                <label for="Id26">Forzar a una relacion sexual</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="AS" id="Id27">
+                <label for="Id27">Abuso sexual</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="VI" id="Id28">
+                <label for="Id28">Violar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="MT" id="Id29">
+                <label for="Id29">Mutilar</label>
+                <br>
+                <input type="radio" name="rbOpcion" value="HF" id="Id30">
+                <label for="Id30">Asesinar (Homicidio/Feminicidio)</label>
+                <br>
+                <br>
+                <button type="reset">Cancelar</button>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
